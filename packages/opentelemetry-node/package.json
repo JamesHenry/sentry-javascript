@@ -16,10 +16,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@sentry/core": "7.36.0",
-    "@sentry/tracing": "7.36.0",
-    "@sentry/types": "7.36.0",
-    "@sentry/utils": "7.36.0"
+    "@sentry/core": "file:../core",
+    "@sentry/tracing": "file:../tracing",
+    "@sentry/types": "file:../types",
+    "@sentry/utils": "file:../utils"
   },
   "peerDependencies": {
     "@opentelemetry/api": "1.x",
@@ -33,7 +33,7 @@
     "@opentelemetry/sdk-trace-base": "^1.7.0",
     "@opentelemetry/sdk-trace-node": "^1.7.0",
     "@opentelemetry/semantic-conventions": "^1.7.0",
-    "@sentry/node": "7.36.0"
+    "@sentry/node": "file:../node"
   },
   "scripts": {
     "build": "run-p build:transpile build:types",

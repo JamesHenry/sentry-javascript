@@ -16,9 +16,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@sentry/core": "7.36.0",
-    "@sentry/types": "7.36.0",
-    "@sentry/utils": "7.36.0",
+    "@sentry/core": "file:../core",
+    "@sentry/types": "file:../types",
+    "@sentry/utils": "file:../utils",
     "cookie": "^0.4.1",
     "https-proxy-agent": "^5.0.0",
     "lru_map": "^0.3.3",

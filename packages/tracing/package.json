@@ -16,13 +16,13 @@
     "access": "public"
   },
   "dependencies": {
-    "@sentry/core": "7.36.0",
-    "@sentry/types": "7.36.0",
-    "@sentry/utils": "7.36.0",
+    "@sentry/core": "file:../core",
+    "@sentry/types": "file:../types",
+    "@sentry/utils": "file:../utils",
     "tslib": "^1.9.3"
   },
   "devDependencies": {
-    "@sentry/browser": "7.36.0",
+    "@sentry/browser": "file:../browser",
     "@types/express": "^4.17.14"
   },
   "scripts": {

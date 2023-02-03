@@ -16,10 +16,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@sentry/browser": "7.36.0",
-    "@sentry/core": "7.36.0",
-    "@sentry/types": "7.36.0",
-    "@sentry/utils": "7.36.0",
+    "@sentry/browser": "file:../browser",
+    "@sentry/core": "file:../core",
+    "@sentry/types": "file:../types",
+    "@sentry/utils": "file:../utils",
     "tslib": "^1.9.3"
   },
   "peerDependencies": {

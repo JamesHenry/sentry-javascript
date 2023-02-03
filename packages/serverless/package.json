@@ -16,10 +16,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@sentry/node": "7.36.0",
-    "@sentry/tracing": "7.36.0",
-    "@sentry/types": "7.36.0",
-    "@sentry/utils": "7.36.0",
+    "@sentry/node": "file:../node",
+    "@sentry/tracing": "file:../tracing",
+    "@sentry/types": "file:../types",
+    "@sentry/utils": "file:../utils",
     "@types/aws-lambda": "^8.10.62",
     "@types/express": "^4.17.14",
     "tslib": "^1.9.3"

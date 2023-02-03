@@ -20,10 +20,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@sentry/react": "7.36.0",
-    "@sentry/tracing": "7.36.0",
-    "@sentry/types": "7.36.0",
-    "@sentry/utils": "7.36.0",
+    "@sentry/react": "file:../react",
+    "@sentry/tracing": "file:../tracing",
+    "@sentry/types": "file:../types",
+    "@sentry/utils": "file:../utils",
     "@sentry/webpack-plugin": "1.19.0"
   },
   "peerDependencies": {

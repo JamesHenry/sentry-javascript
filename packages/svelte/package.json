@@ -16,9 +16,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@sentry/browser": "7.36.0",
-    "@sentry/types": "7.36.0",
-    "@sentry/utils": "7.36.0",
+    "@sentry/browser": "file:../browser",
+    "@sentry/types": "file:../types",
+    "@sentry/utils": "file:../utils",
     "magic-string": "^0.26.2",
     "tslib": "^1.9.3"
   },
